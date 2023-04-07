@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Login Here!</h1>
+    <form action="">
+      <div class="form-control">
+        <!-- <label>
+                <span style="transition-delay: 0ms">E</span>
+                <span style="transition-delay: 0ms">m</span>
+                <span style="transition-delay: 0ms">a</span>
+                <span style="transition-delay: 0ms">i</span>
+                <span style="transition-delay: 0ms">l</span>
+            </label> -->
+        <input id="email" type="email" name="email" required />
+        <label for="email">Email</label>
+      </div>
+
+      <div class="form-control">
+        <input type="password" id="password" name="password" required />
+        <label for="password">Password</label>
+      </div>
+      <button class="btn">Login</button>
+      <input type="checkbox" id="checkbox">
+      <label for="checkbox">Remember Me</label>
+      <p class="text">Don't have account? <a href="#">Register</a></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
